@@ -15,9 +15,7 @@ class Footer extends Component {
     };
   }
 
-  componentDidMount() {
-    var foo = foo;
-  }
+  componentDidMount() {}
 
   componentDidUpdate() {
     if (this.state.cart.items && this.state.arr.length !== 0) {
