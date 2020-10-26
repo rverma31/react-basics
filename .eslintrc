@@ -1,6 +1,24 @@
 {
-    "extends": ["react-app", "plugin:prettier/recommended"],
-    "rules": {
-        "no-console": "error"
-    }
+  "extends": ["react-app", "plugin:prettier/recommended"],
+  "rules": {
+    "no-console": "error",
+    "curly": ["error", "all"],
+    "no-confusing-arrow": ["error", { "allowParens": false }],
+    "no-mixed-operators": "error",
+    "no-unexpected-multiline": "error",
+    "no-debugger": "error",
+    "no-dupe-else-if": "error",
+    "no-irregular-whitespace": "error",
+    "no-import-assign": "error",
+    "no-shadow-restricted-names": "error",
+    "no-redeclare": ["error", { "builtinGlobals": false }],
+    "no-shadow": ["error", { "builtinGlobals": true }],
+    "camelcase": [2, { "properties": "always" }],
+    "no-empty": "error",
+    "no-eq-null": "error",
+    "max-classes-per-file": ["error", 1],
+    "no-alert": "error",
+    "eqeqeq": "error",
+    "no-self-assign": "error"
+  }
 }

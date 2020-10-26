@@ -2,3 +2,4 @@ build
 public
 node
 node_modules
+serviceWorker.js
