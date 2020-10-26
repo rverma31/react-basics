@@ -51,6 +51,8 @@ class Footer extends Component {
               kjdajkkjfankjnfknakfnkaf anfknakjfsnkvjnakfjsnv jnakjnvkanfknv
               nvkjnakvfn nsafkvnkfanv
             </div>
+            <h2>Footer Heading</h2>
+            <p>footer description</p>
             <h2 className="title">footer component</h2>
             <div className="footer-content">
               this is nvjahvbjfbvjfdjbvjfbvjfjvbjfbvvbfj
